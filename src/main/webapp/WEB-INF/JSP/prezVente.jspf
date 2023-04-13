@@ -1,0 +1,50 @@
+<div>
+    <div>
+        <p>Image</p>
+    </div>
+    <div>
+        <h3>${article.nom}</h3>
+     <div>
+         <p>Description :</p>
+         <div>
+             <p>${article.description}</p>
+         </div>
+     </div>
+     <div>
+         <p>Categorie :</p>
+         <div>
+             <p>${article.categorie.libelle}</p>
+         </div>
+     </div>
+     <div>
+         <p>Meilleure offre : </p>
+         <div>
+             <p>${article.miseAPrix} points proposée par ${acheteur.pseudo}</p>
+         </div>
+     </div>
+     <div>
+         <p>Mise à prix :</p>
+         <div>
+             <p>${article.miseAPrix} points</p>
+         </div>
+     </div>
+     <div>
+         <p>Fin de l'ench�re</p>
+         <div>
+             <p>${article.finEncheres}</p>
+         </div>
+     </div>
+     <div>
+         <p>Retrait :</p>
+         <div>
+             <p>${article.lieuRetrait.rue} ${article.lieuRetrait.codePostal} ${article.lieuRetrait.ville}</p>
+         </div>
+     </div>
+     <div>
+         <p>Vendeur :</p>
+         <div>
+             <a href="#">${vendeur.pseudo}</a>
+         </div>
+     </div>
+	</div>
+ </div>
